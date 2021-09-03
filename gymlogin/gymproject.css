@@ -1,0 +1,135 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px;
+    height: 500px;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+nav {
+    width: 600px;
+    margin: -160px auto;
+}
+
+nav ul {
+    overflow: auto;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    /* font-family: 'Lobster', cursive;} */
+    font-family: 'Righteous', cursive;
+}
+
+nav a:hover {
+    color: rgb(187, 181, 181);
+    text-decoration: none;
+}
+
+nav a:active {
+    color: grey;
+}
+
+.enroll {
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    margin-top: 280px;
+    margin-left: 50px;
+    width: 600px;
+    height: 385px;
+    text-align: center;
+}
+
+.enroll span {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+    margin: 10px auto 10px auto;
+}
+
+.details {
+    display: block;
+    margin: 26px auto 30px auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+.detailsInput {
+    width: 300px;
+    height: 38px;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    border: solid 5px gray;
+    margin-bottom: -17px;
+}
+
+.btn {
+    display: block;
+    margin: 26px auto 30px auto;
+    border: solid 2px gray;
+    width: 160px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(187, 181, 181);
+    cursor: pointer;
+}
+
+.btn1 {
+    display: block;
+    margin: 26px auto 30px auto;
+    border: solid 2px gray;
+    width: 160px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    float: right;
+}
+
+.btn1:hover {
+    background-color: rgb(187, 181, 181);
+    cursor: pointer;
+}
+
+.contact {
+    margin-right: -450px;
+    margin-bottom: -100px;
+    margin-top: -95px;
+}
+
+.btn:active {
+    background-color: gray;
+}
+
+.btn1:active {
+    background-color: gray;
+}
